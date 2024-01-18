@@ -1,0 +1,5 @@
+Dependencies for Project 'lab12', Target 'EA LPC2148': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4D984520)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "D:\APPS\Keil\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o")
+F (.\lab12.c)(0x573AF6B8)(-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "D:\APPS\Keil\ARM\INC\Philips" -o "lab12.o" --omf_browse "lab12.crf" --depend "lab12.d")
+I (D:\APPS\Keil\ARM\INC\Philips\LPC214x.H)(0x4A02D76E)
+I (D:\APPS\Keil\ARM\RV31\INC\stdio.h)(0x4A02D8CA)

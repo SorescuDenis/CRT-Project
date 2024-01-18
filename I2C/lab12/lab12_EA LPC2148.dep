@@ -1,0 +1,11 @@
+Dependencies for Project 'lab12', Target 'EA LPC2148': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4D984520)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -ID:\APPS\keil\ARM\RV31\INC-ID:\APPS\keil\ARM\CMSIS\Include-ID:\APPS\keil\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 521"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\serial.c)(0x4D989890)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -ID:\APPS\keil\ARM\RV31\INC-ID:\APPS\keil\ARM\CMSIS\Include-ID:\APPS\keil\ARM\Inc\Philips-D__UVISION_VERSION="521"-o .\serial.o --omf_browse .\serial.crf --depend .\serial.d)
+I (D:\APPS\keil\ARM\Inc\Philips\LPC214x.H)(0x570FEBF8)
+I (D:\APPS\keil\ARM\ARMCC\include\stdio.h)(0x574F1116)
+F (.\i2c_driver.c)(0x51742A5C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -ID:\APPS\keil\ARM\RV31\INC-ID:\APPS\keil\ARM\CMSIS\Include-ID:\APPS\keil\ARM\Inc\Philips-D__UVISION_VERSION="521"-o .\i2c_driver.o --omf_browse .\i2c_driver.crf --depend .\i2c_driver.d)
+I (D:\APPS\keil\ARM\Inc\Philips\lpc214x.h)(0x570FEBF8)
+I (i2c_driver.h)(0x4D9878C2)
+F (.\lab12.c)(0x628B4DC7)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -ID:\APPS\keil\ARM\RV31\INC-ID:\APPS\keil\ARM\CMSIS\Include-ID:\APPS\keil\ARM\Inc\Philips-D__UVISION_VERSION="521"-o .\lab12.o --omf_browse .\lab12.crf --depend .\lab12.d)
+I (D:\APPS\keil\ARM\Inc\Philips\LPC214x.H)(0x570FEBF8)
+I (i2c_driver.h)(0x4D9878C2)
